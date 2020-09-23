@@ -1,0 +1,90 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+/********sytles for md***********/
+body {
+	padding: 0px;
+	margin:0px;
+	background-origin: #cac0c2;
+
+}
+.container{
+	background-color:#90a38e;
+	padding: 3px;
+	margin: -1px;
+	width:100%;
+	border: 2px solid black;
+}
+#head {
+	font-size:35px;
+	font-family: Rowdies;
+	padding-left:30px;
+	margin: 5px;
+	float: left;
+}
+#header-nav{
+	background-color:blue;
+	width:100%;
+	height: auto;
+}
+.nav-bar-default > .navbar-nav>li>a{
+	color:red;
+	text-align: center;
+}
+
+ h1{
+	color: blue;
+	text-align: center;
+	font-family: serif;
+	border:0px solid black;
+	
+}
+.Chicken {
+	border: 2px solid black;
+	background-color: #eaeaa9;
+	margin: 5px;
+	float: right;
+}
+.Chicken > h3{
+	text-align: center;
+	color: black;
+}
+#Beef {
+	border: 2px solid black;
+	background-color:#b2f3b2;
+	margin: 5px;
+	float: right;
+}
+#Beef > h3{
+	text-align: center;
+	color: black;
+}
+#Sushi {
+	border: 2px solid black;
+	background-color:#a8a8c3;
+	margin: 5px;
+	float: right;
+}
+#Sushi > h3{
+	text-align: center;
+	color: black;
+}
+/******styles for sm*******/
+@media(min-width:768px)and(max-width:991px) {
+	
+	.nav{
+		display:none;
+	}
+}
+
+@media (min-width:992px){
+	#nav-list{
+		display: none;
+	}
+}
+/******styles for xs*******/
+@media(min-width:200px) and (max-width:767px) {
+	
+}
